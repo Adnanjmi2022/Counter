@@ -1,0 +1,39 @@
+main{
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    
+   
+   
+}
+.container{
+    text-align: center;
+    background-color: aquamarine;
+
+}
+
+.heading{
+    
+    font-size: 5em;
+}
+.value{
+    font-size: 5em;
+}
+
+button{
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 8px;
+    width: 110px;
+    height:30px;
+    text-align: center;
+    letter-spacing: 3px;
+    transition: background 0.60s;
+    
+}
+button:hover{
+    background-color: black;
+    color:white;
+   
+}
